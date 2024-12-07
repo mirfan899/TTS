@@ -112,9 +112,9 @@ setup(
     },
     install_requires=requirements,
     extras_require={
-        "all": requirements_all,
-        "dev": requirements_dev,
-        "notebooks": requirements_notebooks,
+        # "all": requirements_all,
+        # "dev": requirements_dev,
+        # "notebooks": requirements_notebooks,
         "ja": requirements_ja,
     },
     python_requires=">=3.9.0, <3.12",
